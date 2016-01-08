@@ -1,0 +1,255 @@
+/* ARQUIVO CSS DO TEMA ONLINE
+
+ paleta de cores 
+Azul escuro - #00406B
+Azul Claro - #00ACEC
+Cinza - #CCCCCC
+ */
+
+/* background  do site */
+/*body {
+	background: url("http://127.0.0.1/doutorarnaldo/sites/default/files/fundo-rgb.jpg") no-repeat scroll;
+    /* ANTIGO background-color: #00BFFF;rgb(50,126,168)*/
+	/* url("../images/usercontrols/rodape/fundo.jpg") no-repeat scroll center bottom;
+    height: 100%;
+    width: 100%;
+	*/
+	/*IGUAL DO SITE SANTA MARCELINA*/
+	
+	body {
+		
+  background: url("http://doutorarnaldo.org.br/sites/default/files/fundo_site_atual_out_rosa.png") no-repeat center center fixed;
+  background-size: 100% 100% !important;/*AQUI ADICIONEI PARA VER SE ALINHA O TAMANHO*/
+  background-size: cover; /*Css padrão*/
+  -webkit-background-size: cover; /*Css safari e chrome*/
+  -moz-background-size: cover; /*Css firefox*/
+  -ms-background-size: cover; /*Css IE não use mer#^@%#*/
+  -o-background-size: cover; /*Css Opera*/
+  /*BACKGORUND ANTIGO
+    background: url("http://doutorarnaldo.org.br/sites/default/files/fundosite3.png") no-repeat scroll center top, rgba(0, 0, 0, 0) url("http://doutorarnaldo.org.br/sites/default/files/rodape.png") no-repeat scroll center bottom;
+    height: 100%;
+    width: 100%;*/
+	}
+}
+
+/* cabecalho */
+.navbar-brand{
+	font-size: 36px; /* alteracoes da fonte  */
+	padding-top: 50px;
+	line-height: 40px;
+}
+
+.navbar-default .navbar-brand {
+    color: #00406B;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	/*background: url("http://127.0.0.1/doutorarnaldo/sites/default/files/fundo.jpg") no-repeat scroll center top, rgba(0, 0, 0, 0); 
+	/*opacity: 0.9;
+	/*background-color: #FFFFFF;*/ 	
+background-color: transparent !important; /*AQUI DEIXA TRANSPARENTE A COR DE FUNDO DO HEADER*/
+}
+
+.navbar.container {
+	max-width: 1140px;
+	background-color: transparent !important;/*SE MECHER AQUI TAMBÉM MUDA A COR DE FUNDO DO HEADER*/
+	border: none;
+	/*border-radius: 5px;*/
+}
+
+
+/* diminuir fontes do titulo do bloco e das views */
+h2, .h2{
+	font-size: 24px;
+	color: #FFFFFF;
+	
+}
+
+h1, .h1{
+	font-size: 24px;
+	font-family: "MyriadProRegular",calibri,verdana;
+	font-weight: normal !important;
+	/*font-family: "Verdana"; ----FONTE ANTIGA----/*
+	font-weight:bold !important;
+	/*font-style:oblique;*/
+	color: #00406B;
+}
+
+/* menu */
+.nav > li > a {
+	padding: 3px 15px; /* diminuir espaco entre os itens de menu */
+	color: #00406B;
+}
+
+
+.well{
+	background-color: #FFF /*transparent !important;  cor de fundo do menu */
+	padding: 0px;
+	border: 1px solid #00406B;
+	border-radius: 5px;
+}
+
+h2.block-title {
+	padding: 10px;
+	background-color: #00406b;
+	border-top-radius: 6px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #00406b;
+	color:#FFF !important;
+}
+
+.noticias, .view-footer{/*AQUI PARECE QUE ESTAVA ERRADO: "NOTICIAIS?" ARRUMEI PARA ".NOTICIAS"*/
+background-color:#FFF !important;/*EU ADD*/
+	text-align: justify;
+}
+.basicpage{/*EU ADD ALL - AQUI GERA O FUNDO DAS BASICS PAGE*/
+	/*background-color:#FFF !important;
+	border: solid !important;
+	border-width:thin !important;
+	border-color:#00406b !important;
+	margin: 2px 2px 2px 2px !important;
+	/*border-radius: 1px;*/
+	/*CROSS BROWSER: http://www.webcis.com.br/cantos-arredondados-com-css3.html*/
+background:#FFF;
+border-width: 1px !important; /*450px;*/
+margin: 1px;
+padding:10px;
+/*text-align: justify;*/
+border-style: solid !important;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+ border-radius:7px;
+}
+/*BASIC PAGE DE DOAÇÕES*/
+.doacoesbispo{
+background:#FFF;
+border-width: 1px !important; /*450px;*/
+margin: 1px;
+padding:10px;
+text-align: center !important;
+border-style: solid !important;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+ border-radius:7px;
+}
+/* Bloco de notícias */
+.views-row{
+	background-color: #fff !important;
+	border: 1px solid #00406B;
+	padding: 10px;
+	border-radius: 6px;
+	margin: 5px;
+	font-family: "Verdana" !important;
+}
+
+a{
+	color: #00406b !important;
+	font-weight: normal;
+}
+a hover{
+	color: #FF3 !important;
+	font-weight:normal !important;
+}
+
+/* Rodape */
+
+.footer {
+/*background: url("http://doutorarnaldo.org.br/sites/default/files/rodape.png") no-repeat scroll center bottom;*/
+background-image: url("http://doutorarnaldo.org.br/sites/default/files/rodape_azul.png");
+background-repeat: no-repeat;
+-moz-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+background-size: 100% 100% !important;
+   width: 100% !important;
+   height:110px;
+   margin-top: 2.4em;
+   margin-bottom: 0.3em;
+   float: left;
+   clear: both;
+/*FOOTER ANTIGO
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #CCCCCC;
+  font-size: smaller;*/
+}
+
+
+/* Webdoor */
+.views-slideshow-cycle-main-frame-row-item {
+    border: 0px;
+    padding: 0px;
+    margin: 0;
+}
+
+.views_slideshow_cycle_main {
+  width: 100%;
+  float: left;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%;
+}
+.views_slideshow_cycle_main .field-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner lateral direito */
+.views-row-last-banner-lateral, .views-row-even-banner-lateral, .views-row-first-banner-lateral{
+	border: 0px;
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+/* Webform */
+.form-email{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    vertical-align: middle;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.form-select.day, .form-select.month, .form-select.year{
+	display: inline;
+	width: 30%;
+}
+
+.form-item{
+	margin-top: 15px;
+}
+
+.btn{
+	margin-bottom: 10px;
+}
+
+.webform-component--cpf, .webform-component--telefone-fixo-celular, .webform-component--bairro, .webform-component--cidade, .webform-component--area-de-atuacao, .webform-component--escolaridade{
+	width: 50%;
+}
+
+.webform-component--cep{
+	width: 30%;
+}

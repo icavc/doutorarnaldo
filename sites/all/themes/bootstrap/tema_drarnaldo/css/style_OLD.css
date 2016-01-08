@@ -1,0 +1,175 @@
+/* paleta de cores 
+Azul escuro - #00406B
+Azul Claro - #00ACEC
+Cinza - #CCCCCC
+ */
+
+/* background */
+body {
+    background-color: #FFFFFF;
+}
+
+/* cabecalho */
+.navbar-brand{
+	font-size: 36px; /* alteracoes da fonte  */
+	padding-top: 50px;
+	line-height: 40px;
+}
+
+.navbar-default .navbar-brand {
+    color: #00406B;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	background-color: #FFFFFF; 	
+
+}
+
+.navbar.container {
+	max-width: 1140px;
+	background-color: #FFFFFF;
+	border: 1px solid #00406B;
+	border-radius: 5px;
+}
+
+
+/* diminuir fontes do titulo do bloco e das views */
+h2, .h2{
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+h1, .h1{
+	font-size: 24px;
+	color: #00406B;
+}
+
+/* menu */
+.nav > li > a {
+	padding: 3px 15px; /* diminuir espaco entre os itens de menu */
+	color: #00406B;
+}
+
+
+.well{
+	background-color: #FFFFFF; /* cor de fundo do menu */
+	padding: 0px;
+	border: 1px solid #00406B;
+	border-radius: 5px;
+}
+
+h2.block-title {
+	padding: 10px;
+	background-color: #00406b;
+	border-top-radius: 6px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #FFFFFF;
+}
+
+.noticiais, .view-footer{
+	text-align: right;
+}
+
+
+/* Bloco de notícias */
+.views-row{
+	border: 1px solid #00406B;
+	padding: 10px;
+	border-radius: 6px;
+	margin: 5px;
+}
+
+a{
+	color: #00406B;
+	font-weight: normal;
+}
+
+/* Rodape */
+
+.footer {
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #CCCCCC;
+  font-size: smaller;
+}
+
+
+/* Webdoor */
+.views-slideshow-cycle-main-frame-row-item {
+    border: 0px;
+    padding: 0px;
+    margin: 0;
+}
+
+.views_slideshow_cycle_main {
+  width: 100%;
+  float: left;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%;
+}
+.views_slideshow_cycle_main .field-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner lateral direito */
+.views-row-last-banner-lateral, .views-row-even-banner-lateral, .views-row-first-banner-lateral{
+	border: 0px;
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+/* Webform */
+.form-email{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    vertical-align: middle;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.form-select.day, .form-select.month, .form-select.year{
+	display: inline;
+	width: 30%;
+}
+
+.form-item{
+	margin-top: 15px;
+}
+
+.btn{
+	margin-bottom: 10px;
+}
+
+.webform-component--cpf, .webform-component--telefone-fixo-celular, .webform-component--bairro, .webform-component--cidade, .webform-component--area-de-atuacao, .webform-component--escolaridade{
+	width: 50%;
+}
+
+.webform-component--cep{
+	width: 30%;
+}
